@@ -5,3 +5,14 @@
     --color-cream: #F0F3BD;
     --color-mulberry: #C64191;
 }
+
+#hiboxdiv {
+    display: flex;
+    justify-content: center;
+}
+
+#hibox {
+    border: 1px solid black;
+    width: fit-content;
+    
+}
