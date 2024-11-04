@@ -12,7 +12,27 @@
 }
 
 #hibox {
+    border: 10px solid black;
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+    padding: 1em;
+    max-width: fit-content;
+}
+
+#lobox {
     border: 1px solid black;
-    width: fit-content;
-    
+    padding: 1em;
+}
+
+.boxdefault {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper1 {
+    display: flex;
+    flex: 1 1 0;
 }
